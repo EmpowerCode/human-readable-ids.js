@@ -36,11 +36,13 @@ Usage
 ### npm
 
 ```bash
-# directly from git
-npm install --save git+https://git@git.daplie.com:Daplie/human-readable-ids-js.git
-
 # from npm
 npm install --save human-readable-ids
+```
+
+```bash
+# directly from git
+npm install --save https://git.coolaj86.com/coolaj86/human-readable-ids.js.git
 ```
 
 ```javascript

@@ -1,6 +1,6 @@
 {
   "name": "human-readable-ids",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generate human-readable ids from lists of easy-to-spell nouns and adjectives",
   "main": "index.js",
   "dependencies": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git.daplie.com/Daplie/human-readable-ids-js.git"
+    "url": "https://git.coolaj86.com/coolaj86/human-readable-ids.js.git"
   },
   "keywords": [
     "hri",
@@ -30,7 +30,7 @@
   "author": "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com/)",
   "license": "Apache2",
   "bugs": {
-    "url": "https://git.daplie.com/Daplie/human-readable-ids-js/issues"
+    "url": "https://git.coolaj86.com/coolaj86/human-readable-ids.js/issues"
   },
-  "homepage": "https://git.daplie.com/Daplie/human-readable-ids-js#readme"
+  "homepage": "https://git.coolaj86.com/coolaj86/human-readable-ids.js#readme"
 }
