@@ -16,7 +16,7 @@
     numbers = [];
     numbers.push(0);
     // 1 is not plural, so we skip it
-    for (i = 2; i <= 100; i += 1) {
+    for (i = 2; i <= 9999; i += 1) {
       numbers.push(i);
     }
 
@@ -35,6 +35,7 @@
     }
 
     return adjectives.pop()
+      + '-' + adjectives.pop()
       + '-' + animals.pop()
       + '-' + numbers.pop()
       ;
