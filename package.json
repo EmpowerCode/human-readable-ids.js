@@ -1,6 +1,6 @@
 {
   "name": "big-human-readable-ids",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Generate (fairly) human-readable ids from lists of nouns, verbs, adverbs and adjectives",
   "main": "index.js",
   "dependencies": {

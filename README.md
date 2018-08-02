@@ -34,29 +34,3 @@ for (i = 0; i < 100; i += 1) {
   console.log(hri.random());
 }
 ```
-
-### bower / browser
-
-```
-bower install --save big-human-readable-ids
-```
-
-```html
-    <script src="bower_components/knuth-shuffle/index.js"></script>
-    <script src="bower_components/human-readable-ids/assets/animals.js"></script>
-    <script src="bower_components/human-readable-ids/assets/adjectives.js"></script>
-    <script src="bower_components/human-readable-ids/index.js"></script>
-```
-
-```javascript
-;(function (exports) {
-  'use strict';
-
-  var hri = exports.humanReadableIds || require('human-readable-ids').hri;
-  var i;
-
-  for (i = 0; i < 100; i += 1) {
-    console.log(hri.random());
-  }
-}('undefined' !== typeof exports && exports || new Function('return this')()));
-```
